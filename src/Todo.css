@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background: #F5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: system-ui;
+    padding: 2rem 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .TodoWrapper {
+    background: #fff;
+    border-radius: 4px;
+    padding: 2rem 4rem;
+    width: 64rem;
+    min-height: 100vh;
+  }
+  
+  .NewTodo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .NewTodo input {
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 4px;
+    padding: 0 0.75rem;
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+  }
+  
+  button {
+    height: 40px;
+    border: none;
+    background: #ff4757;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 0 2rem;
+  }
+  
+  .Todos {
+    margin-top: 4rem;
+  }
+  
+  .Todos li {
+    width: 100%;
+    min-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.1);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .Todos li button {
+    font-size: 1.3rem;
+  }
